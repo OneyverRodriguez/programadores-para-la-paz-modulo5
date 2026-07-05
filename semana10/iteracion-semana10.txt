@@ -1,0 +1,19 @@
+====================================================================
+DEFINICIÓN DE ITERACIÓN - SISTEMA DE VEEDURÍA COMUNITARIA
+Semana 10
+====================================================================
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Historia de Usuario 1: Como habitante del territorio quiero registrar una incidencia o afectación socioambiental con descripción y ubicación para visibilizar la problemática colectiva y dejar evidencia clara del caso.
+- Historia de Usuario 2: Como coordinador de la veeduría comunitaria quiero recibir una alerta automática en Telegram cada vez que se registre un nuevo reporte.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque juntas construyen el núcleo funcional (Producto Mínimo Viable) de cualquier herramienta de monitoreo territorial. Sin la capacidad de capturar datos y narrativas directamente desde el territorio (HU 1), el sistema simplemente carece de información. A su vez, la notificación automatizada (HU 2) es lo que convierte un simple registro de datos en un verdadero sistema de alerta temprana, permitiendo que la comunidad reaccione a tiempo frente a posibles contingencias.
+
+3. ¿Qué significa para ti que una tarea esté “terminada”?
+Una tarea está verdaderamente "terminada" cuando pasa de ser un fragmento de código a ser una herramienta que aporta valor real, es confiable, estable y está documentada. 
+
+Criterios de Terminado:
+- Funciona: La característica cumple exactamente con lo descrito en la historia de usuario y hace lo que se espera de ella.
+- Fue probada: Se comprobó su funcionamiento de forma local simulando casos reales para asegurar que no arroje errores imprevistos.
+- Quedó registrada en Git: Los cambios de código fueron guardados (commit) y sincronizados (push) exitosamente con el repositorio en GitHub, garantizando que no haya conflictos con el trabajo del resto del equipo.

@@ -1,0 +1,20 @@
+--------------------------------------------------------------------
+1. PRIORIDAD ALTA (Esenciales para el funcionamiento del sistema)
+--------------------------------------------------------------------
+Historia de Usuario 1:
+Como habitante del territorio quiero registrar una incidencia o afectación socioambiental con descripción y ubicación para visibilizar la problemática colectiva y dejar evidencia clara del caso.
+
+Historia de Usuario 2:
+Como coordinador de la veeduría comunitaria quiero recibir una alerta automática en Telegram cada vez que se registre un nuevo reporte para revisar, validar y clasificar el caso oportunamente.
+
+--------------------------------------------------------------------
+2. PRIORIDAD MEDIA (Gestión, análisis y seguimiento)
+--------------------------------------------------------------------
+Historia de Usuario 3:
+Como miembro del equipo de veeduría quiero consultar y filtrar el histórico de reportes en un tablero centralizado para hacer seguimiento a los compromisos de las entidades responsables.
+
+--------------------------------------------------------------------
+3. PRIORIDAD BAJA / DESEABLE (Exigibilidad y salidas de información)
+--------------------------------------------------------------------
+Historia de Usuario 4:
+Como líder comunitario o ciudadano afectado quiero descargar un reporte consolidado con las evidencias registradas en formato imprimible para presentarlo como soporte en mesas de diálogo técnico o derechos de petición.

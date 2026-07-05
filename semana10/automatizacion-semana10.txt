@@ -1,0 +1,30 @@
+====================================================================
+DISEÑO DE AUTOMATIZACIÓN SIMPLE (n8n + TELEGRAM)
+Semana 10
+====================================================================
+
+1. ¿Qué evento activa el flujo?
+El flujo se activa mediante un nodo disparador (Trigger) en n8n configurado para reaccionar cuando se inserta una nueva fila en la base de datos o se envía un formulario web de reporte comunitario (por ejemplo, a través de una webhook o un nodo de Typeform/Google Sheets donde se recopilan las alertas de la comunidad).
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviaría un mensaje de alerta estructurado y anónimo para el equipo de coordinación:
+
+ALERTA DE MONITORIO TERRITORIAL
+--------------------------------------------------
+Se ha recibido un nuevo reporte de afectación en el sistema de veeduría.
+
+• ID del reporte: {{ $json.id_caso }}
+• Tipo de afectación: {{ $json.categoria_ambiental }}
+• Ubicación general: {{ $json.sector_o_vereda }}
+• Fecha/Hora: {{ $json.fecha_registro }}
+
+Por favor, ingresa al panel centralizado y seguro para validar la información e iniciar la ruta de atención comunitaria correspondiente."
+
+3. ¿Qué información no debería enviarse por seguridad?
+Bajo ninguna circunstancia deben enviarse datos sensibles o de identificación personal que pongan en riesgo a los líderes, lideresas o habitantes del territorio. 
+Esto incluye:
+- Nombres completos o alias de la persona que realiza la denuncia o de los afectados.
+- Documentos de identidad (cédulas) o datos de contacto directos (números de teléfono personales).
+- Direcciones residenciales exactas o coordenadas geográficas ultraespecíficas que expongan viviendas particulares.
+- Detalles explícitos o relatos descriptivos que permitan deducir la identidad del alertante en entornos comunitarios con tensiones de orden público.
+- Credenciales de acceso, contraseñas del sistema o tokens privados de la integración de n8n.
