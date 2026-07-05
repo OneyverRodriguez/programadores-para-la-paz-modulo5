@@ -1,0 +1,11 @@
+====================================================================
+INTERFAZ BÁSICA - PLATAFORMA COMUNITARIA
+====================================================================
+
+La interfaz de la plataforma será clara, intuitiva y estará diseñada para proteger la privacidad, por lo que nunca mostrará información sensible ni datos personales de los usuarios.
+
+En la pantalla principal o panel de control, habrá una sección destacada con un formulario para crear una nueva causa comunitaria. Allí se pedirá ingresar la información esencial: el título de la problemática, una descripción detallada y la fecha.
+
+Debajo de esta sección, el sistema ofrecerá una vista de causas disponibles, organizada como una lista o galería de tarjetas para que los visitantes puedan navegar y leer fácilmente sobre las distintas iniciativas registradas.
+
+Cada una de estas causas publicadas incluirá un botón interactivo para "Apoyar" la iniciativa, acompañado de un contador numérico visible que mostrará en tiempo real cuántas personas se han sumado a respaldar la causa.

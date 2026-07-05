@@ -1,0 +1,6 @@
+====================================================================
+REFLEXIÓN - SEGURIDAD Y ARQUITECTURA EN PARTICIPACIÓN CIUDADANA
+Semana 11
+====================================================================
+
+Una plataforma tecnológica orientada a la participación ciudadana y la veeduría territorial debe sostenerse sobre un trípode técnico innegociable: base de datos, autenticación y protección de información. La base de datos garantiza la persistencia, el ordenamiento y la trazabilidad histórica de las denuncias o causas comunitarias, impidiendo que las demandas sociales se pierdan en la volatilidad digital. Por su parte, la autenticación de usuarios legitima los procesos de consulta y movilización, asegurando que el respaldo a las iniciativas provenga de personas reales y no de perfiles falsos que distorsionen la voluntad colectiva. Finalmente, la protección estricta de la información y el cifrado de datos sensibles constituyen un imperativo ético y de seguridad vital en contextos territoriales complejos. Custodiar el anonimato y la privacidad de quienes alertan sobre problemáticas socioambientales previene represalias, fomenta la confianza en las herramientas digitales y blinda la infraestructura comunitaria frente a posibles ataques cibernéticos externos, consolidando un ejercicio democrático seguro, transparente y verdaderamente transformador.

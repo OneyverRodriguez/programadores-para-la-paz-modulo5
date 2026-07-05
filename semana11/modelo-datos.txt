@@ -1,0 +1,29 @@
+====================================================================
+MODELO BÁSICO DE DATOS - PLATAFORMA DE VEEDURÍA COMUNITARIA
+====================================================================
+
+Entidad: Reporte_Territorial
+
+Campos principales:
+- id
+- titulo_afectacion
+- descripcion
+- ubicacion_vereda_o_sector
+- fecha_registro
+- estado_actual
+
+Propósito:
+Almacenar las incidencias socioambientales y afectaciones comunitarias reportadas por los habitantes, asegurando que se capture la información esencial del territorio para visibilizar la problemática.
+
+
+Entidad: Seguimiento_Comunitario
+
+Campos principales:
+- id
+- reporte_id
+- accion_realizada
+- fecha_accion
+- responsable_veeduria
+
+Propósito:
+Registrar las acciones, visitas o validaciones que el equipo de coordinación de la veeduría realiza sobre cada reporte, permitiendo hacer trazabilidad y seguimiento a la respuesta del caso.

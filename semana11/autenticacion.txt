@@ -1,0 +1,9 @@
+El login es el mecanismo que permite identificar de forma segura a un usuario antes de otorgarle acceso a funciones específicas de una aplicación.
+
+Es indispensable proteger ciertas rutas porque manejan información privada, paneles de administración o acciones críticas que no deben ser de libre acceso.
+
+Si estas rutas permanecieran abiertas, cualquier persona externa podría alterar el sistema o acceder de manera malintencionada a registros internos.
+
+Por ello, no se debe exponer públicamente ningún tipo de dato sensible, como contraseñas, tokens de autenticación, claves de API o direcciones.
+
+De igual forma, deben resguardarse estrictamente los documentos de identidad, números telefónicos y datos personales de los miembros de la comunidad.
